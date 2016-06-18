@@ -4,3 +4,10 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import url(header/_header.scss);
+@import url(main/_main.scss);
+@import url(footer/_footer.scss);
+*{
+	padding: 0;
+	margin: 0;
+}
