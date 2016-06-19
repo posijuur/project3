@@ -1,0 +1,6 @@
+@import url(content/content.css);
+@import url(aside/menu-left.css);
+.main {
+  display: flex;
+  padding-bottom: 65px;
+}

@@ -1,0 +1,26 @@
+.menu-left{
+	&_item{
+		line-height: 40px;
+		list-style: none;
+		&_btn{
+			display: block;
+			width: 217px;
+			padding-left: 23px;
+			border: 1px solid #c8c8c8;
+			border-bottom: none;
+			text-decoration: none;
+			color: #656363;
+			&:hover{
+			width: 205px;
+			padding-left: 35px;
+			background-color: #f9f9f9;
+			color: #2c2c2c;
+			}
+		}
+		&_btn__border{
+			border-bottom: 1px solid #c8c8c8;
+		}
+	}
+	float: left;
+	padding-right: 45px;	
+}

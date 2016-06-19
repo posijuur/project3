@@ -4,10 +4,34 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-@import url(header/_header.scss);
-@import url(main/_main.scss);
-@import url(footer/_footer.scss);
+@import url(header/header.css);
+@import url(main/main.css);
+@import url(footer/menu-bottom.css);
 *{
 	padding: 0;
 	margin: 0;
+}
+body{
+	background-color: #f9f9f9;
+}
+.page{
+	margin: 0 auto;
+	width: 965px;
+	padding: 35px 50px 60px 50px;
+	box-shadow: 2px 2px 1px #dbdbdb,
+				-2px -2px 1px #dbdbdb;
+	background-color: #ffffff;
+	color: #2c2c2c;
+	font-size: 14px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	clear: both;
+	line-height: 40px;
+	background-color: #e1e1e1;
+	&_item{
+		margin-right: 25px;
+	}
 }
